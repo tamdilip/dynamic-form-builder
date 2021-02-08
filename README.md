@@ -1,4 +1,6 @@
 # 🏗️ dynamic-form-builder
+[![Open in CodeSandbox](https://img.shields.io/badge/CodeSandbox-Ready--to--Code-green?style=flat-square&logo=codesandbox)](https://codesandbox.io/s/github/tamdilip/dynamic-form-builder)
+
 A minimal web-app to create, publish and maintain instant drag and drop dynamic forms (currently work-in-progress).
 
 ### Setup
