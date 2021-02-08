@@ -197,7 +197,7 @@
              </div>
              <input type="text" ng-model="formName" placeholder="Enter new form name" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
              <div class="input-group-append">
-                 <button type="button" class="btn btn-danger" ng-click="saveFormSchema()">
+                 <button type="button" class="btn btn-danger" ng-disabled="!formName" ng-click="saveFormSchema()">
                      <i class="fa fa-floppy-o" aria-hidden="true"></i> Save schema
                  </button>
                </div>  
