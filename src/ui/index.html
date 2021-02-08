@@ -128,6 +128,7 @@
                          $scope.renderedFormName = response.data[0].formName;
                          $scope.formList = response.data.reduce((acc, val) => {
                              let record = val.userData.reduce((accUser, valUser) => {
+                                if(valUser.userData)
                                  accUser[valUser.label] = valUser.userData.toString();
                                  return accUser;
                              }, {});
